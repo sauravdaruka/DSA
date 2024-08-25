@@ -5,7 +5,7 @@ public class MergeSort {
         int[] arr = {12, 11, 13, 5, 6, 7};
         System.out.println("Array Before Sorting: ");
         printArray(arr);
-        mergeSort(arr, 0, arr.length - 1);
+        mergeSort(arr, 0, arr.length - 1); // Time Complexity : O(nlogn)  Space Complexity : O(n)
         System.out.println("Array After Sorting: ");
         printArray(arr);
     }
